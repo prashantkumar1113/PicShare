@@ -1,6 +1,8 @@
 $(document).ready(function(){
-	$('h1').click(function(){
-		$('p').toggle();
+	$('.myTitle p').hide();
+	
+	$('.myTitle h1').click(function(){
+		$('.myTitle p').toggle();
 	});
-	 
+	
 });

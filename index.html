@@ -20,6 +20,19 @@
 	.badge{
 		background: #d9534f;
 	}
+	.myTitle{
+		position: relative;
+	}
+	.myTitle p{
+		position: absolute;
+		left: 5px;
+		bottom: -40px;
+		z-index: 1;
+		background: blue;
+		color: white;
+		width: 200px;
+		padding: 7px;
+	}
 </style>
 
 <title>PicShare GitHub Demo</title>
@@ -28,8 +41,10 @@
 
 <body>
 	<div class="container">
-		<h1>Header</h2>
-		<p>Hello World!</p>
+		<div class="myTitle">
+			<h1>Header</h2>
+			<p>Hello World!</p>
+		</div>
 		
 			<nav class="navbar navbar-default">
 			  <div class="container-fluid">
