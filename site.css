@@ -48,6 +48,30 @@ body{
   CUSTON BTN VALUES
 ************************/
 
+.login{
+	width: 300px;
+	margin-top: 5px;
+	text-shadow: none;
+	opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+.jumbotron {
+    *margin-bottom: 0px;
+    *background-image: url(http://www.mobiles24.com/static/previews/downloads/default/331/P-586073-cmSC0Btq15-1.jpg);
+	background-image: url(http://para.llel.us/themes/incentive-wp/wp-content/uploads/2013/07/home-1-ss-bg-2.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: #333333 0.2em 0.2em 0.2em;
+}
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
+}
+.navbar-default{
+	background: none;
+}
+footer{
+	background: blue;
+	color: white;
 }
