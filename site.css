@@ -18,3 +18,56 @@ body{
 	width: 200px;
 	padding: 7px;
 }
+/***********************
+  OUTLINE BUTTONS
+************************/
+
+.btn.outline {
+    background: none;
+	padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn-primary.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.login{
+	width: 300px;
+	margin-top: 5px;
+	text-shadow: none;
+	opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+.jumbotron {
+    *margin-bottom: 0px;
+    *background-image: url(http://www.mobiles24.com/static/previews/downloads/default/331/P-586073-cmSC0Btq15-1.jpg);
+	background-image: url(http://para.llel.us/themes/incentive-wp/wp-content/uploads/2013/07/home-1-ss-bg-2.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: #333333 0.2em 0.2em 0.2em;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.navbar-default{
+	background: none;
+}
